@@ -12,5 +12,7 @@ public class Ex4 {
 
         double temperaturaFahrenheit = (double) (temperaturaCelcius) * 9 / 5 + 32;
         System.out.println("A temperatura convertida de Celcius para Fahrenheit é " + temperaturaFahrenheit);
+
+        temperatura.close();
     }
 }
